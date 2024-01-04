@@ -1,0 +1,85 @@
+.article ,#cow-type{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    
+    padding: 60px;
+    /*border-width: 15px; */
+    
+    background: linear-gradient(pink , rgb(225, 225, 236));
+
+}
+.article h2 ,#cow-type h2{
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+    border-width: 3px;
+    border-color: rgb(209, 104, 5);
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,400;1,700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Lato', sans-serif;
+
+
+}
+.hero{
+    color: rgb(6, 81, 88);
+    background-image: url("../images/cow04.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh; 
+    clip-path: polygon(46% 0, 53% 0, 100% 55%, 51% 100%, 0 56%);
+
+
+}
+.article p{
+    font-size: 20px;
+    line-height: 2em;
+
+}
+.article p .imp{
+    font-size: 2em;
+    background-color: rgb(136, 165, 42);
+    display: inline;
+    width: 600px;
+}
+.hero h1{
+    font-size: 50px;
+    color: blanchedalmond;
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    padding-top: 60px;
+    word-spacing: 4px;
+    letter-spacing: 10px;
+}
+.cow-images{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    
+}
+.cow-images div{
+    width: 300px;
+}
+.cow-images img{
+    width: 100%;
+    clip-path: polygon(46% 0, 53% 0, 100% 55%, 51% 100%, 0 56%);
+}
